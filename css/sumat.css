@@ -1,0 +1,1196 @@
+
+/* ********* Totes les Fonts *********** */
+
+html {
+
+	scroll-behavior: smooth;
+}
+
+/*********************/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+/*******************/
+/********* ANIMACIO BOMBOLLA ****************/
+
+
+#bubbles {
+  
+  /*width: 10%;
+  height: 10%;*/
+  z-index: 9;
+  filter: brightness(200%);
+  
+}
+
+.bubble {
+  width: 20px;
+  height: 20px;
+  background: #03adfc;
+  border: .5px solid white;
+  border-radius: 10vw;
+  -moz-border-radius: 10vw;
+  -webkit-border-radius: 10vw;
+  position: relative;
+}
+
+.x1 {
+  left: 85vw;
+  color: yellow;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.2;
+  -webkit-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x2 {
+  left: 5px;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.5;
+  -webkit-animation: moveBubbles 6s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 6s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 6s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  animation: moveBubbles 6s linear infinite, sideWays 5s ease-in-out infinite alternate;
+}
+
+.x3 {
+  left: 35px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.3;
+  -webkit-animation: moveBubbles 5s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 5s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 5s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: moveBubbles 5s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x4 {
+  left: 47px;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+  opacity: 0.35;
+  -webkit-animation: moveBubbles 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: moveBubbles 8s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+.x5 {
+  left: 15px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.3;
+  -webkit-animation: moveBubbles 5s linear infinite, sideWays 1s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 5s linear infinite, sideWays 1s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 5s linear infinite, sideWays 1s ease-in-out infinite alternate;
+  animation: moveBubbles 5s linear infinite, sideWays 1s ease-in-out infinite alternate;
+}
+
+.x6 {
+  left: 73px;
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  -o-transform: scale(0.4);
+  transform: scale(0.4);
+  opacity: 0.2;
+  -webkit-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: moveBubbles 4s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x7 {
+  left: 67px;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.5;
+  -webkit-animation: moveBubbles 11s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 11s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 11s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  animation: moveBubbles 11s linear infinite, sideWays 5s ease-in-out infinite alternate;
+}
+
+.x8 {
+  left: 56px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.3;
+  -webkit-animation: moveBubbles 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: moveBubbles 9s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x9 {
+  left: 20px;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+  opacity: 0.35;
+  -webkit-animation: moveBubbles 4.5s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 4.5s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 4.5s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: moveBubbles 4.5s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+.x10 {
+  left: 33px;
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  -o-transform: scale(0.4);
+  transform: scale(0.4);
+  opacity: 0.3;
+  -webkit-animation: moveBubbles 11.3s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -moz-animation: moveBubbles 11.3s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  -o-animation: moveBubbles 11.3s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  animation: moveBubbles 11.3s linear infinite, sideWays 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes moveBubbles {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 0vh;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 5vw;
+  }
+}
+
+@-moz-keyframes moveBubbles {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 0vh;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 5vw;
+  }
+}
+
+@-o-keyframes moveBubbles {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 0vh;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 5vw;
+  }
+}
+
+@keyframes moveBubbles {
+  0% {
+    top: 90vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 0vh;
+    opacity: 0;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 5vw;
+  }
+}
+
+/****************** todo esto por unas burbujitas  *************************/
+
+/********* BOTON TIRA ARRIBA *************/
+
+#top
+{ 
+  /*como si estuviese flotando*/
+  /*si añadimos contenido cambiamos el position por absolute*/
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 5em;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+#top:hover
+{
+  transition: 0.5s;
+  opacity: 1;
+}
+
+/* la imagenes estan posicionadas en una esquina */
+#top img
+{
+  width: 90%;
+}
+
+
+
+/******* LA NOSTRE MARE **********/
+
+ .banner {
+   
+   color: black;
+   width: 100%;
+   z-index: 0;
+
+}
+ .title {
+   background: url('../Media/pexels-gülşah-pehli̇van-73388902.jpg') no-repeat center center fixed;
+   background-size: cover;
+   text-align: center;
+  /* text-transform: uppercase;
+   */
+   font-family: Impact, Arial, sans-serif;
+   /*font-size: 11.5vw;*/
+   font-size: 14.5vw;
+   font-weight: bold;
+   line-height: 1em;
+   margin: 0;
+   padding: 80px 0 80px;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+  
+
+}
+
+.cover{
+    border-radius: 30px;
+}
+
+
+/********** CONTACTE ******************/
+
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) {
+
+#contact
+{
+    width: 80% !important;
+}
+
+.section-row__content-inner P
+{
+  font-size: 0.5em;
+}
+
+
+
+}
+
+.contactiner {
+  
+/*  width:50%;
+  max-height: 10%;*/
+  margin:20;
+  /*position:relative;*/
+  font-weight: bolder;
+  font-size: 2em;
+  line-height:30px;
+  color: white;
+ /* background-color: #29539b;
+background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);*/
+  text-align: center;
+
+
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px; }
+
+#contact {
+/*  background-image: url("../Media/pexels-matt-hardy-3560136.jpg");
+ background-color: #cccccc;*/
+margin: auto;
+  width: 50%;
+  height: auto;
+ /* border: 3px solid green;*/
+  padding: 10px;
+ 
+}
+
+#contact h3 {
+  color: white;
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#contact h4 {
+  margin:20px 0 15px;
+  display:block;
+  font-size:0.5em;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background-color: #29539b;
+background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#09C;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+
+
+/****************************/
+
+/*reseteix original*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+/****************************/
+
+body {
+	/*background: hsl(0, 0%, 20%);*/
+ background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 17%, rgba(9,36,53,1) 25%, rgba(20,85,123,1) 57%, rgba(122,198,191,1) 100%);
+
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+/********* LOGO **********/
+
+#content {
+
+   position: relative;
+}
+
+#content img {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 200px;
+   margin: 20px;
+ }
+
+ /***********************/
+
+ 
+
+ 
+
+/*******************************************/
+
+#myVideo {
+  
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+/************* NAV INICI ********************/
+.wrapper{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: hsl(0, 0%, 20%);
+  clip-path: circle(25px at calc(100% - 45px) 45px);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+
+}
+#active:checked ~ .wrapper{
+  clip-path: circle(30%);
+  z-index: 333;
+  /*clip-path: circle(75%);*/
+
+
+}
+.menu-btn{
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  /* left: 20px; */
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+/*  background: #008CA7;*/
+  transition: all 0.3s ease-in-out;
+
+
+}
+#active:checked ~ .menu-btn{
+  color: white;
+}
+#active:checked ~ .menu-btn i:before{
+  content: "\f00d";
+}
+.wrapper ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+}
+.wrapper ul li{
+  margin: 20px 0;
+}
+
+.wrapper ul li a{
+  color: none;
+  text-decoration: none;
+  font-size: 2.5vw;
+  font-weight: 500;
+  padding: 5px 30px;
+  color: white;
+  border-radius: 50px;
+  background: hsl(0, 0%, 20%);
+  position: relative;
+  line-height: 90px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 879px) {
+  .wrapper ul li a {
+  color: none;
+  text-decoration: none;
+  font-size: 3vw;
+  font-weight: 500;
+  padding: 5px 30px;
+  color: white;
+  border-radius: 50px;
+  background: hsl(0, 0%, 20%);
+  position: relative;
+  line-height: 20px;
+  transition: all 0.3s ease;
+}
+}
+
+.wrapper ul li a:after{
+  position: absolute;
+  content: "";
+  background: #68E0CC;
+  
+  /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+  width: 105%;
+  height: 115%;
+  left: -2%;
+  top: -5%; /* if the font is 'Oswald'*/
+  border-radius: 50px;
+  transform: scaleY(0);
+  z-index: -1;
+  animation: rotate 1.5s linear infinite;
+  transition: transform 0.3s ease;
+}
+.wrapper ul li a:hover:after{
+  transform: scaleY(1);
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  text-align: center;
+  width: 100%;
+  color: #202020;
+
+}
+.content .title{
+  font-size: 40px;
+  font-weight: 700;
+}
+.content p{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+}
+/***************************************/
+
+
+
+
+.cover {
+    background-size: cover !important;
+   
+}
+
+.cover img {
+  
+  width: 10%;
+
+}
+/*
+.outline {
+    outline: 1px solid;
+}*/
+
+
+
+.db {
+    display: block;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+
+
+
+.fw6 {
+    font-weight: 600;
+}
+
+.fw7 {
+    font-weight: 700;
+}
+
+.fw9 {
+    font-weight: 900;
+}
+
+.lh-solid {
+    line-height: 1;
+}
+
+.lh-title {
+    line-height: 1.25;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw9 {
+    max-width: 20rem;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.pa4 {
+    padding: 5.8rem;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+ 
+}
+
+.pa4 h1{
+ 
+    text-align: center;
+}
+
+.pa4 p{
+ 
+    text-align: center;
+}
+
+.pl2 {
+    padding-left: .5rem;
+}
+
+.pr2 {
+    padding-right: .5rem;
+}
+
+.pt3 {
+    padding-top: 1rem;
+}
+
+.pv0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.pv5 {
+   /* padding-top: 4rem;
+    padding-bottom: 4rem;*/
+
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.mb3 {
+    margin-bottom: 1rem;
+}
+
+.mb4 {
+    margin-bottom: 2rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.f4 {
+    font-size: 1.25rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.measure-wide {
+    max-width: 77em;
+    margin: auto;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 30em) {
+    .db-ns {
+        display: block;
+    }
+
+    .pl2-ns {
+        /*padding-left: .5rem;*/
+    }
+
+    .pv6-ns {
+        padding-top: 50rem;
+        padding-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .pa4-m {
+        padding: 2rem;
+
+
+    }
+
+    .pr2-m {
+        padding-right: .5rem;
+    }
+
+    .pv6-m {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .mb0-m {
+        margin-bottom: 0;
+    }
+
+    .mt3-m {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .bb-l {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+
+    .db-l {
+        display: block;
+    }
+
+    .w-25-l {
+        width: 25%;
+    }
+
+    .w-50-l {
+        width: 50%;
+    }
+
+    .w-75-l {
+        /*width: 75%*/;
+    }
+
+    .pa5-l {
+        padding: 4rem;
+    }
+
+    .pl0-l {
+        padding-left: 0;
+    }
+
+    .pl3-l {
+        padding-left: 1rem;
+    }
+
+    .pl4-l {
+        padding-left: 2rem;
+    }
+
+    .pr0-l {
+        padding-right: 0;
+    }
+
+    .pr2-l {
+        padding-right: .5rem;
+    }
+
+    .pr3-l {
+        padding-right: 1rem;
+    }
+
+    .pr4-l {
+        padding-right: 2rem;
+    }
+
+    .pt0-l {
+        padding-top: 0;
+    }
+
+    .pv3-l {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .pv6-l {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+    }
+
+    .pv7-l {
+        padding-top: 16rem;
+        padding-bottom: 16rem;
+    }
+
+    .ph2-l {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .mb0-l {
+        margin-bottom: 0;
+    }
+
+    .mb4-l {
+        margin-bottom: 2rem;
+    }
+
+    .mt5-l {
+        margin-top: 4rem;
+    }
+
+    .f1-l {
+        font-size: 3rem;
+    }
+
+    .f2-l {
+        font-size: 2.25rem;
+    }
+
+ .dib {
+    display: inline-block;
+}
+
+
+
+
+.pv5 {
+    /*padding-top: 4rem;
+    padding-bottom: 4rem;*/
+}
+
+
+.ph4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.mr4 {
+    margin-right: 2rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 30em) {
+    .mr5-ns {
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .pv6-l {
+        padding-top: 50rem;
+        padding-bottom: 8rem;
+    }
+}
+  
+}
+
+
+/***************************/
+
+
+
+/* ******************** FOOTER ****************** */
+footer
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background: #000000;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer .container
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+footer .container .sec
+{
+	margin-right: 30px;
+}
+
+footer .container .sec.acerca
+{
+	width: 40%;
+}
+
+footer  h2:before
+{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 80px;
+	height: 2px;
+	background: #7ac6bf;
+}
+
+footer  h2
+{
+	position: relative;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+
+footer p
+{
+	color: #999;
+}
+
+.seccion1
+{
+	margin-top: 20px;
+	display: flex;
+}
+
+.seccion1 li
+{
+	list-style: none;
+}
+
+.seccion1 li a
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+.seccion1 li a:hover
+{
+	background: #008ca7;
+}
+
+.seccion1 li a .fab
+{
+	color: white;
+	font-size: 20px;
+}
+
+.secLinks ul li
+{
+	list-style: none;
+}
+
+.secLinks ul li a
+{
+	color: #999;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.secLinks ul li a:hover
+{
+	color: white;
+}
+
+.contacto
+{
+	width: calc(35% - 60px);
+	margin-right: 0 !important;
+}
+
+.contacto .info
+{
+	position: relative;
+}
+
+.contacto .info li
+{
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.contacto .info li span:nth-child(1)
+{
+	color: white;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.contacto .info li span
+{
+	color: grey;
+}
+
+.contacto .info li a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+.contacto .info li a:hover
+{
+	color: white;
+}
+
+.copyrightTexto
+{
+	width: 100%;
+	background: #111;
+	padding: 8px 100px;
+	text-align: center;
+	color: #999;
+}
+
+/************ Media Query ******************/
+
+@media (max-width: 991px)
+{
+	footer
+	{
+		padding: 40px;
+	}
+	footer .container
+	{
+		flex-direction: column;
+	}
+	footer .container .sec
+	{
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	footer .container .sec.acerca,
+	.secLinks, 
+	.contacto
+	{
+		width: 100%;
+	}
+
+	.copyrightTexto
+	{
+		padding: 8px 40px;
+	}
+}
+
